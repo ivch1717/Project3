@@ -1,0 +1,235 @@
+﻿{
+    "elements": [
+        {
+            "id": "embarking_agdistis",
+            "label": "Мистер Питер Агдистис",
+            "desc":"[Мистер Агдистис вскоре уедет.]",
+            "inherits":"_visitor.embarking",
+            "aspects":{"interest.heart":1,"interest.sky":1},
+            "xtriggers":{"arriving":"agdistis"},
+            "xexts":{"dissatisfying":"«У вас ничего нет? Что ж, это не страшно! Может, мне повезёт в следующий раз»."}
+        },
+
+  {
+            "id": "embarking_aladim",
+            "label": "Доктор Ибн аль-Адим",
+            "inherits":"_visitor.embarking",
+            "aspects":{"interest.scale":1,"interest.rose":1},
+            "xtriggers":{"arriving":"aladim"},
+            "xexts":{"dissatisfying":"«Хм-м. Ну, полагаю, мы ещё встретимся»."}
+        },
+
+        {
+            "id": "embarking_arthur",
+            "label": "Лейтенант Артур Томас Мур",
+            
+            "inherits":"_visitor.embarking",
+            "aspects":{"interest.lantern":1,"interest.edge":1},
+            "xtriggers":{"arriving":"arthur"},
+            "xexts":{"dissatisfying":"«Значит, придётся искать просветление где-то ещё. Доброго дня»."}
+        },        {
+            "id": "embarking_arun",
+            "label": "Доктор Арун Пил",
+            
+            "inherits":"_visitor.embarking",
+            "aspects":{"interest.moon":1,"interest.moth":1},
+            "xtriggers":{"arriving":"arun"},
+            "xexts":{"dissatisfying":"«Неважно. Странник всегда возвращается, не так ли? Если я приеду ещё раз, то вернусь. Или я возвращаюсь прямо сейчас?»"}
+        },
+        {
+            "id": "embarking_azita",
+            "label": "Мисс Азита Бухара",
+            
+            "inherits":"_visitor.embarking",
+            "aspects":{"interest.edge":1,"interest.grail":1},
+            "xtriggers":{"arriving":"azita"},
+            "xexts":{"dissatisfying":"«Значит, пора делать мой ход...»"}
+        },
+        {
+            "id": "embarking_auntmopsy",
+            "label": "Т. М.",
+            "inherits":"_visitor.embarking",
+            "aspects":{"numatic":1,"interest.moon":1,"interest.nectar":1},
+            "xtriggers":{"arriving":"auntmopsy"},
+            "xexts":{"dissatisfying":"«Да благословит тебя Кобылица. И твоё древо тоже»."}
+        },
+        {
+            "id": "embarking_chaima",
+            "label": "Лалла Хаима",
+            
+            "inherits":"_visitor.embarking",
+            "aspects":{"interest.edge":1,"interest.rose":1},
+            "xtriggers":{"arriving":"chaima"},
+            "xexts":{"dissatisfying":"«Да, и ещё погода. Ваша погода тоже меня разочаровала»."}
+        },
+        {
+            "id": "embarking_connie",
+            "label": "Младший констебль-окулянт Ли",
+
+            "inherits":"_visitor.embarking",
+            "aspects":{"interest.sky":1,"interest.moon":1},
+            "xtriggers":{"arriving":"connie"},
+            "xexts":{"dissatisfying":"«Не могу поверить, что мы финансировали эту дыру»."}
+        },
+        {
+            "id": "embarking_coquille",
+            "label": "Княжна Кокиль Амирэджиби",
+            
+            "inherits":"_visitor.embarking",
+            "aspects":{"interest.grail":1,"interest.knock":1},
+            "xtriggers":{"arriving":"coquille"},
+            "xexts":{"dissatisfying":"«Ох, моя прелесть. Я не разочарована... ну, разве что <i>капельку</i>»."}
+        },
+        {
+            "id": "embarking_corso",
+            "label": "Синьор Корсо Реверте",
+            
+            "inherits":"_visitor.embarking",
+            "aspects":{"interest.grail":1,"interest.lantern":1},
+            "xtriggers":{"arriving":"corso"},
+            "xexts":{"dissatisfying":"«Что ж, у меня есть и другие источники...»"}
+        },
+        {
+            "id": "embarking_dagmar",
+            "label": "«Дневная Грёза»",
+  
+            "inherits":"_visitor.embarking",
+            "aspects":{"interest.knock":1,"interest.rose":1},
+            "xtriggers":{"arriving":"dagmar"},
+            "xexts":{"dissatisfying":"«Не переживай! Я давно собиралась подышать морским воздухом»."}
+        },
+        {
+            "id": "embarking_douglas",
+            "label": "Дуглас Мур",
+    
+            "inherits":"_visitor.embarking",
+            "aspects":{"interest.lantern":1,"interest.heart":1},
+            "xtriggers":{"arriving":"douglas"},
+            "xexts":{"dissatisfying":"«Ну, жаловаться мне не пристало»."}
+        },
+        {
+            "id": "embarking_ehsan",
+            "label": "Господин Эхсан Фекри",
+       
+            "inherits":"_visitor.embarking",
+            "aspects":{"interest.sky":1,"interest.forge":1},
+            "xtriggers":{"arriving":"ehsan"},
+            "xexts":{"dissatisfying":"«Я знаю, что Дом переживает не лучшие времена. Конечно, многих нет, но многие ведь доныне пребывают, нет? Я ещё вернусь»."}
+        },
+
+        {
+            "id": "embarking_franklin",
+            "label": "Лорд Франклин Банкрофт",
+            "inherits": "_visitor.embarking",
+            "aspects": {
+                "numatic":1,
+                "interest.grail": 1,
+                "interest.winter": 1
+            },
+             "xtriggers":{"arriving":"franklin"},
+             "xexts":{"dissatisfying":"«От проклятых библиотек нет никакой проклятой пользы»."}
+          },
+
+        {
+            "id": "embarking_fraser",
+            "label": "Мистер Фрейзер Стрэткойн",            
+            "inherits":"_visitor.embarking",
+            "aspects":{"interest.lantern":1,"interest.sky":1},
+            "xtriggers":{"arriving":"fraser"},
+            "xexts":{"dissatisfying":"«Курия подобного не допускала. До свидания»."}
+        },
+
+
+        {
+            "id": "embarking_hokobald",
+            "label": "Магистр Хокобальд",
+            "inherits":"_visitor.embarking",
+            "aspects":{"interest.forge":5,"interest.grail":5},
+            "xtriggers":{"arriving":"hokobald"},
+            "xexts":{"dissatisfying":"«Почему я вообще трачу моё проклятое время на это проклятое место, будь оно проклято?»"}
+        },
+
+        {
+            "id": "embarking_julian",
+            "label": "Джулиан Косли",
+            "inherits":"_visitor.embarking",
+            "aspects":{"numatic":1,"interest.moon":5,"interest.winter":5},
+            "xtriggers":{"arriving":"julian"},
+            "xexts":{"dissatisfying":"«Порой конец наступает слишком рано. А порой он не наступает вовсе, чтоб ему провалиться»."}
+        },
+
+
+        {
+            "id": "embarking_morgen",
+            "label": "Мадемуазель Марго Матутин",
+   
+            "inherits":"_visitor.embarking",
+            "aspects":{"interest.sky":1,"interest.grail":1},
+            "xtriggers":{"arriving":"morgen"},
+            "xexts":{"dissatisfying":"«Я прибыла голодной. А уезжаю <i>изголодавшейся</i>. Кто-то об этом пожалеет... Но это будешь не ты. Не сегодня»."}  
+        },
+        {
+            "id": "embarking_olympe",
+            "label": "Мадам Олимпия Беше",
+            
+            "inherits":"_visitor.embarking",
+            "aspects":{"interest.forge":1,"interest.moth":1},
+            "xtriggers":{"arriving":"olympe"},
+            "xexts": {
+              "dissatisfying": "«<i>C'est la vie</i>»."
+            }
+        },
+        {
+            "id": "embarking_rowena",
+            "label": "Профессор Ровена Хёнгерст",
+            
+            "inherits":"_visitor.embarking",
+            "aspects":{"numatic":1,"interest.nectar":1,"interest.winter":1},
+            "xtriggers":{"arriving":"rowena"},
+            "xexts": {
+              "dissatisfying": "«Фонд ждёт от вас несколько больших усилий...»"}
+        },
+
+        
+        {
+            "id": "embarking_serena",
+            "label": "Доктор Серена Блэквуд",
+            "inherits":"_visitor.embarking",
+            "aspects":{"interest.forge":1,"interest.lantern":1},
+            "xtriggers":{"arriving":"serena"},
+            "xexts": {
+              "dissatisfying": "«Мы столь многое потеряли, не так ли? Я вам не завидую. Удачи»."
+            }
+        },   
+        {
+            "id": "embarking_stanislav",
+            "label": "О. Станислав Иоанн Шаллер",
+            
+            "inherits":"_visitor.embarking",
+            "aspects":{"interest.heart":1,"interest.nectar":1},
+            "xtriggers":{"arriving":"stanislav"},
+            "xexts": {
+              "dissatisfying": "«На всё божья воля. (Только не спрашивайте, которого именно!)»"
+            }
+        },
+        {
+            "id": "embarking_yvette",
+            "label": "Доктор Иветта Саути",
+            "inherits":"_visitor.embarking",
+            "aspects":{"interest.moon":1,"interest.winter":1},
+            "xtriggers":{"arriving":"yvette"},
+            "xexts":{"dissatisfying":"«Быть может, я так и не узнаю...»"}
+        },
+        {
+            "id": "embarking_zachary",
+            "label": "Мистер Захария Уэйкфилд",
+            "inherits":"_visitor.embarking",
+            "aspects":{"interest.winter":1,"interest.knock":1},
+            "xtriggers":{"arriving":"zachary"},
+            "xexts": {
+              "dissatisfying": "Уэйкфилд молчит. Впрочем, он всегда был немногословен."
+            }
+        }
+
+    ]
+}

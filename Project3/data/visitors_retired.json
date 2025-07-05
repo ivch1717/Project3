@@ -1,0 +1,44 @@
+﻿{
+    "elements": [
+
+
+
+        {
+            "id": "retired_arthur",
+            "label": "Артур покинул нас...",
+            "icon":"Arthur",
+            "lifetime":30
+
+        },     
+        {
+            "id": "retired_azita",
+            "label": "Азита покинула нас...",
+            "icon":"azita",
+            "lifetime":30
+
+        },
+
+        {
+            "id": "retired_chaima",
+            "label": "Хаима покинула нас...",
+            "icon":"chaima",
+            "lifetime":30
+
+        },
+        {
+            "id": "retired_yvette",
+            "label": "Иветта покинула нас...",
+            "icon":"yvette",
+            "lifetime":30
+
+        },
+        {
+            "id": "retired_zachary",
+            "label": "Захария покинул нас...",
+            "icon":"zachary",
+            "lifetime":30
+
+        }
+
+    ]
+}
